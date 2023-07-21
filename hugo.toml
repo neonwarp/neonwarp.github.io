@@ -1,0 +1,14 @@
+baseURL = 'http://rixkft.hu/'
+languageCode = 'en-us'
+title = 'RIX Kft.'
+theme = 'hugo-coder'
+enableEmoji = true
+
+[params]
+author = "RIX Kft."
+description = "Automation done right"
+keywords = "development,automation"
+info = ["Automation", "Software Development"]
+since = 1992
+rtl = false
+colorScheme = "auto"
