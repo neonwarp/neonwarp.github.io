@@ -1,7 +1,7 @@
 baseURL = 'http://rixkft.hu/'
 languageCode = 'en-us'
 title = 'RIX Kft.'
-theme = 'hugo-coder'
+theme = 'rix'
 enableEmoji = true
 
 [params]
@@ -12,3 +12,27 @@ info = ["Automation", "Software Development"]
 since = 1992
 rtl = false
 colorScheme = "auto"
+
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+
+[languages]
+[languages.hu]
+contentDir = 'content/hu'
+disabled = false
+languageCode = 'hu-HU'
+languageDirection = 'ltr'
+languageName = 'Magyar'
+title = 'RIX Kft.'
+weight = 2
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'RIX Kft.'
+weight = 1
+
+[params.goatCounter]
+code = "rixkft"
