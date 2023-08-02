@@ -1,4 +1,11 @@
-<h1>{{ .Site.Params.author }}</h1>
+<h1>
+  {{ $hrg := resources.Get "images/rix_logo.svg" }}
+  {{ if $hrg }}
+    <img src="{{ $hrg.RelPermalink }}" width="213px" alt="RIX logo" />
+  {{ else }}
+    {{ .Site.Params.author }}
+  {{ end }}
+</h1>
 {{ if reflect.IsSlice .Site.Params.info }}
 <h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
 {{ else }}
