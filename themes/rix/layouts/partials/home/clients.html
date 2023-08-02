@@ -1,0 +1,13 @@
+<p style="margin-top: 152px;">
+  {{ $hrg := resources.Get "images/hr_logo_main_pos_rgb.png" }}
+  {{ with $hrg }}
+    <img src="{{ $hrg.RelPermalink }}" width="213px" alt="Hurtigruten logo" />
+  {{ end }}
+
+  <br>
+
+  {{ $el := resources.Get "images/Element-Logic-Logo-3-01-300x89.png" }}
+  {{ with $el }}
+    <img src="{{ $el.RelPermalink }}" width="153px" alt="Element Logic logo" />
+  {{ end }}
+</p>

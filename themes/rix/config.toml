@@ -1,0 +1,5 @@
+baseURL = "https://www.rixkft.hu/"
+
+[module]
+[module.hugoVersion]
+min = "0.79.0"

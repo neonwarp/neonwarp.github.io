@@ -1,0 +1,27 @@
+name = "RIX"
+license = "MIT"
+description = "A simple and clean blog theme for Hugo"
+homepage = "https://www.rixkft.hu/"
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "simple",
+  "clean",
+  "personal",
+]
+features = [
+  "analytics",
+  "favicon",
+  "multilingual",
+  "pagination",
+  "single-column",
+  "syntax-highlighting",
+]
+version = 2
+min_version = "0.79.0"
+
+[author]
+name = "RIX"
+homepage = "https://www.rixkft.hu"
